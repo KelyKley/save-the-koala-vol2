@@ -25,32 +25,18 @@ header nav{
 	background-color: #fff;
 }
 
-header nav ul{
-	line-height: 70px;
-	text-align: right;
-	padding-right: 80px;
-}
-
 nav ul li a {
 	text-transform: uppercase;
 	color: white;
-	width: 20%;
+	width: 50%;
 }
-
-.lista-menu{
-	text-align: right;
-}
-
-header nav h1{
-	margin: 0px;
-	margin-left: 30px;
-	line-height: 70px;
-}
-
-header .action img{
-	width: 80px;
-	margin: 15px 0px;
-}
+ section nav a{
+ 	color: white;
+ 	font-weight: bolder;
+ }
+ .navbar-brand {
+ 	font-size: 1.5em;
+ }
 
 header .action h1{
 	font-size: 2em;
@@ -77,11 +63,10 @@ header .action h1{
 	font-size: 6em;
 	margin-bottom: 15px;
 }
+
 .action{
 	margin: 50px;
 }
-
-
 
 /*Section Bienvenida*/
 
@@ -143,12 +128,11 @@ h5{
  	padding: 60px;
 }
 
-/**/
 .num {
 	color: white;
 }
 
-.siete .list-inline{
+#siete .list-inline{
 	text-align: center;
 }
 
@@ -168,7 +152,7 @@ h5{
 	padding: 50px;
 }
 
-.siete{
+#siete{
 	background: #A89F68;
 	padding: 50px;
 }
@@ -189,38 +173,27 @@ sup{
 	position: relative;
 	padding-top: 0;
 }
-/*
-wood brown: A89F68;
-army green: 41521F;
-*/
-.lista-menu{
- 	display: block;
- }
-.sangu{
- 	display: none;
- }
-@media(max-width: 990px){
-	.lista-menu {
-    display: hidden;
-  }
-	.sangu{
-		display: block;
-		text-align: right;
-	}
-}
 
-.color{
-	color: white;
-	font-size: 30px;
-	background-color: transparent;
-	border-radius: 10px;
-}
-
-#demo{
-	background: #41521F;
-	color: white;
-}
-
-#dos{
+section #dos{
 	background: white;
+}
+
+.navbar{
+	background: #41521F;
+	border: none;
+	padding: 10px;
+	opacity: 0.7;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-weight: bolder;
+}
+
+#bienvenida .navbar-toggle .icon-bar {
+    background: #f5f5f5;
+}
+
+.navbar-toggle{
+	border: 1px solid #f5f5f5;
 }
